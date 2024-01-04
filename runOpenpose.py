@@ -187,7 +187,7 @@ def run_demo(net, action_net, image_provider, height_size, cpu, boxList):
             # cv2.imwrite(f'C:/zqr/project/yolov5_openpose/Image/{t}.jpg', img)
             cv2.imshow('Lightweight Human Pose Estimation Python Demo', img)
 
-            cv2.waitKey(1)
+            cv2.waitKey(100)
         i += 1
     cv2.destroyAllWindows()
 
